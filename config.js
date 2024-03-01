@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("942929244")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://malikmd:malikmd@cluster0.bfc7ce9.mongodb.net/"
 global.port= process.env.PORT || 5000
 global.email = 'akk728492@gmail.com'
@@ -12,7 +12,7 @@ global.location = 'Pakistan'
 global.gurl = 'king-md.db' // add your username
 global.sudo = process.env.SUDO || '94702929244'
 global.devs = '94702929244';
-global.website = 'https://github.com/arkhan998/MALIK-MD' //wa.me/+91000000000000
+global.website = 'https://github.com/arkhan998/MALIK-MD' //wa.me/+942929244
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/dce77f7538019d05afe65.jpg'
 module.exports = {
   
